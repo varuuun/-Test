@@ -3,7 +3,7 @@ import time
 
 WIDTH, HEIGHT = 800, 600
 PADDLE_MOVE = 30
-BALL_SPEED = 0.25
+BALL_SPEED = 5
 
 wn = turtle.Screen()
 wn.title("Pong")
@@ -147,4 +147,3 @@ try:
     wn.bye()
 except turtle.Terminator:
     pass
-print ("hello world")
